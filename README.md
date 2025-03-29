@@ -1,6 +1,6 @@
 # IDM Key
 
-![IDM Key](IDM.Key/image.png)
+![IDM Key](image.png)
 
 [English]  
 
