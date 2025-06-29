@@ -117,41 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="activate" xml:space="preserve">
-    <value>Activar</value>
-  </data>
-  <data name="freeze" xml:space="preserve">
-    <value>Congelar prueba</value>
-  </data>
-  <data name="reset" xml:space="preserve">
-    <value>Reiniciar prueba / activación</value>
-  </data>
-  <data name="cancel" xml:space="preserve">
-    <value>Cerrar</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="com" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="readme" xml:space="preserve">
-    <value>Léeme</value>
-  </data>
-  <data name="optionMenu" xml:space="preserve">
-    <value>Opciones</value>
-  </data>
-  <data name="cancelBtn" xml:space="preserve">
-    <value>Cancelar</value>
-  </data>
-  <data name="fname" xml:space="preserve">
-    <value>Nombre:</value>
-  </data>
-  <data name="lname" xml:space="preserve">
-    <value>Apellido:</value>
-  </data>
-  <data name="titleCustom" xml:space="preserve">
-    <value>Personalizar activación</value>
-  </data>
-  <data name="errorEmptyFields" xml:space="preserve">
-    <value>El nombre/apellido no pueden quedar vacios</value>
-  </data>
 </root>

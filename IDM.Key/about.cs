@@ -24,8 +24,8 @@ namespace IDM.Key
             if (lang == "en")
             {
                 Text = "About";
-                label2.Text = "Version: 1.2 B: 1.2.1101";
-                label3.Text = "Date: 29/03/2025";
+                label2.Text = "Version: 1.2 H: 1.3.146";
+                label3.Text = "Date: 29/06/2025";
                 label4.Text = "Dev by: KrDev - Christian Romero";
                 label6.Text = "Icon by: Internet Download Manager";
                 label7.Text = "The icon of this app is property of Internet Download Manager (Tonec FZE).";
@@ -35,8 +35,8 @@ namespace IDM.Key
             else
             {
                 Text = "Acerca de";
-                label2.Text = "Versión: 1.2 B: 1.2.1101";
-                label3.Text = "Fecha: 29/03/2025";
+                label2.Text = "Versión: 1.3 H: 1.3.146";
+                label3.Text = "Fecha: 29/06/2025";
                 label4.Text = "Desarrollado por: KrDev - Christian Romero";
                 label6.Text = "Icono por: Internet Download Manager";
                 label7.Text = "El icono de esta aplicación es propiedad de Internet Download Manager (Tonec FZE).";
@@ -47,7 +47,7 @@ namespace IDM.Key
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/WindowsAddict/IDM-Activation-Script");
+            System.Diagnostics.Process.Start("https://github.com/Coporton/IDM-Activation-Script");
         }
     }
 }

@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.btnFreeze = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.backgroundWorker = new System.ComponentModel.BackgroundWorker();
             this.richSalida = new System.Windows.Forms.RichTextBox();
@@ -47,19 +46,6 @@
             this.panel2.SuspendLayout();
             this.contextLang.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnFreeze
-            // 
-            this.btnFreeze.Enabled = false;
-            this.btnFreeze.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnFreeze.Location = new System.Drawing.Point(187, 36);
-            this.btnFreeze.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.btnFreeze.Name = "btnFreeze";
-            this.btnFreeze.Size = new System.Drawing.Size(112, 27);
-            this.btnFreeze.TabIndex = 6;
-            this.btnFreeze.Text = "Freeze trial";
-            this.btnFreeze.UseVisualStyleBackColor = true;
-            this.btnFreeze.Click += new System.EventHandler(this.btnFreeze_Click);
             // 
             // btnCancel
             // 
@@ -84,12 +70,12 @@
             this.richSalida.Location = new System.Drawing.Point(0, 0);
             this.richSalida.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
             this.richSalida.Name = "richSalida";
-            this.richSalida.ReadOnly = true;
-            this.richSalida.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richSalida.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Horizontal;
             this.richSalida.ShortcutsEnabled = false;
-            this.richSalida.Size = new System.Drawing.Size(384, 139);
+            this.richSalida.Size = new System.Drawing.Size(384, 126);
             this.richSalida.TabIndex = 1;
             this.richSalida.Text = "\n\nReady";
+            this.richSalida.TextChanged += new System.EventHandler(this.richSalida_TextChanged);
             // 
             // panel1
             // 
@@ -100,11 +86,11 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.panel1);
             this.panel2.Controls.Add(this.richSalida);
-            this.panel2.Location = new System.Drawing.Point(10, 50);
+            this.panel2.Controls.Add(this.panel1);
+            this.panel2.Location = new System.Drawing.Point(10, 69);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(384, 139);
+            this.panel2.Size = new System.Drawing.Size(384, 126);
             this.panel2.TabIndex = 9;
             // 
             // btnReset
@@ -121,7 +107,6 @@
             // 
             // btnActivate
             // 
-            this.btnActivate.Enabled = false;
             this.btnActivate.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnActivate.Location = new System.Drawing.Point(307, 36);
             this.btnActivate.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -199,7 +184,6 @@
             this.ClientSize = new System.Drawing.Size(406, 240);
             this.Controls.Add(this.btnLanguage);
             this.Controls.Add(this.btnReadme);
-            this.Controls.Add(this.btnFreeze);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnActivate);
             this.Controls.Add(this.btnReset);
@@ -224,7 +208,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button btnFreeze;
         private System.Windows.Forms.Button btnCancel;
         private System.ComponentModel.BackgroundWorker backgroundWorker;
         private System.Windows.Forms.RichTextBox richSalida;

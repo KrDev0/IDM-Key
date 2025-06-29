@@ -139,4 +139,22 @@
   <data name="optionMenu" xml:space="preserve">
     <value>Options menu</value>
   </data>
+  <data name="cmd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cmd.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cancelBtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="fname" xml:space="preserve">
+    <value>First Name:</value>
+  </data>
+  <data name="lname" xml:space="preserve">
+    <value>Last Name:</value>
+  </data>
+  <data name="titleCustom" xml:space="preserve">
+    <value>Customize activation</value>
+  </data>
+  <data name="errorEmptyFields" xml:space="preserve">
+    <value>The first name/surname cannot be emptied</value>
+  </data>
 </root>

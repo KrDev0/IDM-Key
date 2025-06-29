@@ -79,6 +79,25 @@ namespace IDM.Key.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Cancel.
+        /// </summary>
+        internal static string cancelBtn {
+            get {
+                return ResourceManager.GetString("cancelBtn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] cmd {
+            get {
+                object obj = ResourceManager.GetObject("cmd", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a @setlocal DisableDelayedExpansion
         ///@echo off
         ///
@@ -103,11 +122,38 @@ namespace IDM.Key.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a The first name/surname cannot be emptied.
+        /// </summary>
+        internal static string errorEmptyFields {
+            get {
+                return ResourceManager.GetString("errorEmptyFields", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a First Name:.
+        /// </summary>
+        internal static string fname {
+            get {
+                return ResourceManager.GetString("fname", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Freeze trial.
         /// </summary>
         internal static string freeze {
             get {
                 return ResourceManager.GetString("freeze", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Last Name:.
+        /// </summary>
+        internal static string lname {
+            get {
+                return ResourceManager.GetString("lname", resourceCulture);
             }
         }
         
@@ -135,6 +181,15 @@ namespace IDM.Key.Properties {
         internal static string reset {
             get {
                 return ResourceManager.GetString("reset", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Customize activation.
+        /// </summary>
+        internal static string titleCustom {
+            get {
+                return ResourceManager.GetString("titleCustom", resourceCulture);
             }
         }
     }
